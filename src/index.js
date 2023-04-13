@@ -6,7 +6,8 @@ import reportWebVitals from "./reportWebVitals";
 
 const root = ReactDOM.createRoot(document.getElementById("root"));
 
-const base_url = "https://ephemeral.docparser.com"
+// const base_url = "https://ephemeral.docparser.com"
+const base_url = ""
 
 root.render(
   <React.StrictMode>
