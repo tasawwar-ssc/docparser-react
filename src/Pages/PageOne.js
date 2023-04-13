@@ -35,14 +35,14 @@ const PageOne = (props) => {
         <Skeleton
           title={false}
           active={true}
-          paragraph={{ rows: 10, width: "100%" }}
+          paragraph={{ rows: 20, width: "100%" }}
         />
       ) : (
         <Table
           columns={columns}
           dataSource={data}
           scroll={{
-            x: 1300,
+            x: 'max-content',
           }}
         />
       )}
