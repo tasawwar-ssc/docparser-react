@@ -27,7 +27,7 @@ const PageOne = (props) => {
   return (
     <>
       <div style={{ backgroundColor: "#ffb3b3" }}>
-        <h1 style={{ textAlign: "center" }}>This is page one</h1>
+        <h1 style={{ textAlign: "center" }}>Parsers in React</h1>
       </div>
       <br />
       <br />
